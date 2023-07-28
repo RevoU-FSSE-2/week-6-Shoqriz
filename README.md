@@ -24,11 +24,11 @@ Container images become containers at runtime and in the case of Docker containe
   3. After finishing downloading and installing, then you can sign up and login
 
      ![Docker](Asset%20Image/Login.png)
-  4. To make sure your docker is installed properly, you can check on your terminal by using the command ```docker -v```
+  4. To make sure your docker is installed properly, you can check on your terminal by using the command `docker -v`
 
      ![Docker](Asset%20Image/Docker%20V.png)
 ### Dockerizing Node Js App
-  1. creat `package.json`,`package.json` is a vital metadata file in Node.js projects. It contains key information about the app, such as its
+  1. Creat `package.json`,`package.json` is a vital metadata file in Node.js projects. It contains key information about the app, such as its
      name, version, description, and dependencies. Think of it as a brief project description and setup.
      Key details in `package.json` include:
      - `"name"`: The unique project name, used for identification.
@@ -41,3 +41,14 @@ Container images become containers at runtime and in the case of Docker containe
      `package.json` streamlines dependency management, ensuring easy collaboration and consistency among developers.
 
      ![Docker](Asset%20Image/Json.png)
+
+  2. Creat `Docker File`
+     - `FROM`: Sets the base image.
+     - `WORKDIR`: Specifies the working directory.
+     - `COPY`: Copies files into the container.
+     - `RUN`: Executes commands during build.
+     - `EXPOSE`: Documents exposed ports.
+     - `CMD`: Sets the default container command.
+     These Dockerfile commands are essential for creating a containerized environment for your application.
+     
+     ![Docker](Asset%20Image/DockerFile.png)
