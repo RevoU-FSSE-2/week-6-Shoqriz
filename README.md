@@ -83,3 +83,20 @@ Container images become containers at runtime and in the case of Docker containe
         systems. The port mapping with the `-p` option allows you to access the application running inside the container from your local machine using the specified port.
 
         ![Docker](Asset%20Image/Running.png)
+
+   5. Once you have successfully built and run your Docker image, you can check the status of your running containers in Docker Desktop. The containers that are running
+      will be listed, and you can find your image among them. It will be marked as "Running," indicating that it is currently active and accessible.
+
+      With the Docker container up and running, you can access your application in a web browser by navigating to `http://localhost:3001/`. This URL corresponds to the
+      port mapping you specified when running the container (`-p 3001:3001`). The application inside the container is now reachable on your local machine through port
+      3001.
+      
+      When you open `http://localhost:3001/`, you will see the result of your application, which may vary based on the content and functionality of your app. Docker has
+      successfully encapsulated your application and its dependencies, allowing you to interact with it seamlessly in a consistent environment regardless of the
+      underlying system.
+
+      ![Docker](Asset%20Image/Result.png)
+
+      In summary, Docker enables you to build, run, and manage containers, providing an isolated and consistent environment for your applications. By using Docker
+      Desktop, you can monitor your running containers and access your applications via specified ports, making development and deployment more efficient and
+      streamlined.
