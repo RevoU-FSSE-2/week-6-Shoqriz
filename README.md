@@ -2,7 +2,7 @@
 
 # Week 6 Assignment - Docker
 
-## Introduction
+## What is Docker
 Docker is a software platform that allows you to quickly build, test and deploy applications. Docker packages software into standardized units called containers that have everything the software needs to function including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications to any environment and be confident that your code will run.
 
 #### What is a Container?
