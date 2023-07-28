@@ -2,6 +2,11 @@
 
 # Week 6 Assignment - Docker
 
+## Introduction
+Hello here I will explain about a small Node.js project running inside a Docker Container.
+
+We will explore the basics of Docker and its integration with Node.js. By the end of this explanation you will have a good understanding of Docker concepts and be able to containerize Node.js applications effectively.
+
 ## What is Docker
 Docker is a software platform that allows you to quickly build, test and deploy applications. Docker packages software into standardized units called containers that have everything the software needs to function including libraries, system tools, code, and runtime. Using Docker, you can quickly deploy and scale applications to any environment and be confident that your code will run.
 
@@ -10,7 +15,6 @@ A container is a standard unit of software that packages up code and all its dep
 
 Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
-## Introduction
-Hello here I will explain about a small Node.js project running inside a Docker Container.
-
-We will explore the basics of Docker and its integration with Node.js. By the end of this explanation you will have a good understanding of Docker concepts and be able to containerize Node.js applications effectively.
+#### Let's Get Started
+##### Download Docker
+  1. Go to Website [Docker](https://www.contohlink.com)
