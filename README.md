@@ -17,10 +17,13 @@ Containers ensure that applications work uniformly, regardless of differences be
 ### Step 1: Download Docker
 1. Visit the [Docker website](https://www.docker.com/).
 2. Download the Docker version suitable for your operating system.
+
    ![Docker](Asset%20Image/Docker.png)
-3. After installation, sign up and log in to your Docker account.
+4. After installation, sign up and log in to your Docker account.
+
    ![Docker](Asset%20Image/Login.png)
-4. To verify a successful installation, run `docker -v` in your terminal.
+5. To verify a successful installation, run `docker -v` in your terminal.
+
    ![Docker](Asset%20Image/Docker%20V.png)
    
 ### Step 2: Dockerizing a Node.js App
