@@ -52,7 +52,6 @@ Container images become containers at runtime and in the case of Docker containe
      These Dockerfile commands are essential for creating a containerized environment for your application.
      
      ![Docker](Asset%20Image/DockerFile.png)
-
   3.Build the image 
   To build a Docker image using the terminal, you can use the command:
   ```
