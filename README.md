@@ -28,7 +28,7 @@ Container images become containers at runtime and in the case of Docker containe
 
      ![Docker](Asset%20Image/Docker%20V.png)
 ### Dockerizing Node Js App
-  1. creat `package.sjon`,`package.json` is a vital metadata file in Node.js projects. It contains key information about the app, such as its
+  1. creat `package.json`,`package.json` is a vital metadata file in Node.js projects. It contains key information about the app, such as its
      name, version, description, and dependencies. Think of it as a brief project description and setup.
      Key details in `package.json` include:
      - `"name"`: The unique project name, used for identification.
@@ -37,4 +37,7 @@ Container images become containers at runtime and in the case of Docker containe
      - `"dependencies"`: A list of external libraries/modules needed to run the app.
      - `"scripts"`: Custom scripts executable using npm (e.g., "start" to run the app, "test" for testing).
      - `"author"`: The name of the project's creator.
-     `package.json` streamlines dependency management, ensuring easy collaboration and consistency among developers. 
+
+     `package.json` streamlines dependency management, ensuring easy collaboration and consistency among developers.
+
+     ![Docker](Asset%20Image/Json.png)
