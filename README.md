@@ -66,3 +66,20 @@ Container images become containers at runtime and in the case of Docker containe
       Building a Docker image allows you to package your application and its dependencies into a self-contained unit that can be deployed and executed consistently             across different environments. The `-t` option gives the image a meaningful name, making it easier to identify and use later.
      
       ![Docker](Asset%20Image/Build.png)
+
+   4. Run the Image
+      To run a Docker image, you can use the following command:
+      ```
+      docker run -p your-localport:app-port your_image_name
+      ```
+
+      - `docker run`: Instructs Docker to run a container based on the specified image.
+      - `-p your-localport:app-port`: Maps a port on your local machine to a port inside the container. This allows you to access the application running inside the
+        container through the specified local port. For example, `-p 3001:3001` maps port 3001 on your local machine to port 3001 inside the container.
+      - `your_image_name:tag_name`: Specifies the name and tag of the Docker image you want to run. The image name and tag together uniquely identify the image. If the
+        tag is omitted, Docker will assume the latest version of the image.
+
+        Running a Docker container enables you to execute the application within an isolated environment with its dependencies, ensuring consistency across different
+        systems. The port mapping with the `-p` option allows you to access the application running inside the container from your local machine using the specified port.
+
+        ![Docker](Asset%20Image/.png)
