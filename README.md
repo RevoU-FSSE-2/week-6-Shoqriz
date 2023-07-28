@@ -82,4 +82,4 @@ Container images become containers at runtime and in the case of Docker containe
         Running a Docker container enables you to execute the application within an isolated environment with its dependencies, ensuring consistency across different
         systems. The port mapping with the `-p` option allows you to access the application running inside the container from your local machine using the specified port.
 
-        ![Docker](Asset%20Image/.png)
+        ![Docker](Asset%20Image/Running.png)
