@@ -27,5 +27,4 @@ Container images become containers at runtime and in the case of Docker containe
   4. To make sure your docker is installed properly, you can check on your terminal by using the command ```docker -v```
 
      ![Docker](Asset%20Image/Docker%20V.png)
-
 ### Dockerizing Node Js App
