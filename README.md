@@ -52,15 +52,15 @@ Container images become containers at runtime and in the case of Docker containe
      These Dockerfile commands are essential for creating a containerized environment for your application.
      
      ![Docker](Asset%20Image/DockerFile.png)
-  3.Build the image 
-  To build a Docker image using the terminal, you can use the command:
-  ```
-  docker build . -t your_image_name
-  ```
   
-  - `docker build`: Instructs Docker to build an image based on the instructions specified in the Dockerfile.
-  - `.`: Specifies the build context, which is the current directory. It includes the Dockerfile and any other files required for building the image.
-  - `-t your_image_name`: Tags the newly built image with the name "your_image_name" (you can replace this with any name you prefer). The image name and tag together
+  3.Build the image 
+    To build a Docker image using the terminal, you can use the command:
+    ```
+    docker build . -t your_image_name
+    ```
+    - `docker build`: Instructs Docker to build an image based on the instructions specified in the Dockerfile.
+    - `.`: Specifies the build context, which is the current directory. It includes the Dockerfile and any other files required for building the image.
+    - `-t your_image_name`: Tags the newly built image with the name "your_image_name" (you can replace this with any name you prefer). The image name and tag together
     uniquely identify the image.
-
     Building a Docker image allows you to package your application and its dependencies into a self-contained unit that can be deployed and executed consistently across      different environments. The `-t` option gives the image a meaningful name, making it easier to identify and use later.
+    ![Docker](Asset%20Image/Build.png)
