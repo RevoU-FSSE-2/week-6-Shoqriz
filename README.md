@@ -25,3 +25,5 @@ Container images become containers at runtime and in the case of Docker containe
 
      ![Docker](Asset%20Image/Login.png)
   4. And finally to make sure your docker is installed properly, you can check on your terminal by using the command ```docker -v```
+
+     ![Docker](Asset%20Image/Docker%20V.png)
