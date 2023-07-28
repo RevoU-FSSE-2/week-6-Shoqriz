@@ -21,9 +21,9 @@ Container images become containers at runtime and in the case of Docker containe
   2. Download according to your operating system
      
      ![Docker](Asset%20Image/Docker.png)
-  3. Register and Login to your Docker Account
+  3. After finishing downloading and installing, then you can sign up and login
 
      ![Docker](Asset%20Image/Login.png)
-  4. And finally to make sure your docker is installed properly, you can check on your terminal by using the command ```docker -v```
+  4. To make sure your docker is installed properly, you can check on your terminal by using the command ```docker -v```
 
      ![Docker](Asset%20Image/Docker%20V.png)
