@@ -15,6 +15,10 @@ A container is a standard unit of software that packages up code and all its dep
 
 Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
-#### Let's Get Started
+#### Let's Get Started :
 ##### Download Docker
-  1. Go to Website [Docker](https://www.contohlink.com)
+  1. Go to Website [Docker](https://www.docker.com/)
+  2. Download according to your operating system
+  3. Register and Login to your Docker Account
+  4. and finally to make sure your docker is installed properly, you can check on your terminal by using the command 
+<span style="background-color: yellow;">docker -v</span>
